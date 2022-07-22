@@ -63,9 +63,7 @@ $result = mysqli_query($conn, "SELECT * FROM orders_details o inner join cart_de
 <section id="top">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-9">
-                <p class="contact-action"><i class="fa fa-phone-square"></i>PROJECT - II</p>
-            </div>
+
             <div class="col-md-3 clearfix" >
                 <ul class="login-cart" style="text-align: right">
                     <li>
