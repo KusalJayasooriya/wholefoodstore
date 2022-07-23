@@ -359,7 +359,7 @@ padding-top: 10rem;
 
                             <li class="nav-item dropdown dropdown-hover px-2" >
                                 <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"  href="pastry-shop.php">
-                                    GROCERIESSSSSSSSS
+                                    GROCERIES
                                 </a>
                             </li>
 
