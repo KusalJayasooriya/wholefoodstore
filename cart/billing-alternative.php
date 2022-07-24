@@ -350,16 +350,16 @@ $result = mysqli_query($conn, "SELECT * FROM orders_details o inner join cart_de
             </div>
 
 
-            <div class="col-md-3">
-                <div class="block">
-                    <div class="media">
-                        <h4 style="color: #fff;">OUR LOCATION</h4>
-                        <div id="map"></div>
+            <!--  <div class="col-md-3">
+                  <div class="block">
+                      <div class="media">
+                          <h4 style="color: #fff;">OUR LOCATION</h4>
+                          <div id="map"></div>
 
 
-                    </div>    <!-- End Of /.media -->
-                </div>    <!-- End Of /.block -->
-            </div> <!-- End Of Col-md-3 -->
+                      </div>
+                </div>
+            </div>  -->
 
             <div class="col-12">
                 <div class="text-center">

@@ -312,9 +312,9 @@ error_reporting(0);
                         <div id="map"></div>
 
 
-                    </div>    <!-- End Of /.media -->
-                </div>    <!-- End Of /.block -->
-            </div> <!-- End Of Col-md-3 -->
+                    </div>
+                </div>
+            </div> -->
 
             <div class="col-12">
                 <div class="text-center">

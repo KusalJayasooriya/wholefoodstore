@@ -217,16 +217,16 @@ if($_SESSION['info'] == false){
                 </div>
 
 
-                <div class="col-md-3">
+                <!-- <div class="col-md-3">
                     <div class="block">
                         <div class="media">
                             <h4 style="color: #fff;">OUR LOCATION</h4>
                             <div id="map"></div>
 
 
-                        </div>    <!-- End Of /.media -->
-                    </div>    <!-- End Of /.block -->
-                </div> <!-- End Of Col-md-3 -->
+                        </div>
+                    </div>
+                </div>  -->
 
                 <div class="col-12">
                     <div class="text-center">
