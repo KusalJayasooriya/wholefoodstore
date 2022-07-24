@@ -73,7 +73,7 @@ or die("A problem has occured ... \n" . "Our team is working on it at the moment
             swal.fire({
                  type : 'success',
                  title : 'Reservation Cancelled',
-                 text : ''
+                 text : 'Good'
              })
             ";
         echo $alert;
@@ -89,7 +89,7 @@ or die("A problem has occured ... \n" . "Our team is working on it at the moment
             swal.fire({
                  type : 'success',
                  title : 'Delete Confirmed',
-                 text : ''
+                 text : 'Bad'
              })
             ";
         echo $alert;
@@ -331,14 +331,14 @@ or die("A problem has occured ... \n" . "Our team is working on it at the moment
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
             <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="./index.php">Home</a></li>
-            <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="./foods-menu.php">Foods</a></li>
+            <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="./foods-menu.php">Groceries</a></li>
             <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Lounge</li>
           </ol>
-          <h6 class="font-weight-bolder mb-0">STATIONARIES - FOOD ITEMS</h6>
+          <h6 class="font-weight-bolder mb-0">STATIONARIES -  ITEMS</h6>
         </nav>
         <div style="mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
         <a href="#addFood">
-        <button type="button" class="btn btn-success">Add a New Food Item</button>
+        <button type="button" class="btn btn-success">Add a New Stationary Item</button>
         </a>
         <div>
       </div>
@@ -349,15 +349,15 @@ or die("A problem has occured ... \n" . "Our team is working on it at the moment
         <div class="col-lg-12 mb-lg-0 mb-4">
           <div class="card">
             <div class="card-body p-3">
-                <h5 style="text-align:center">AVAILABLE FOOD ITEMS</h5>
+                <h5 style="text-align:center">AVAILABLE STATIONARY ITEMS</h5>
                 <hr/>
                 <table width="100%" align="center">
             <tr>
-                <th>Food Photo</th>
-                <th>Food Name</th>
-                <th>Food Description</th>
-                <th>Food Price</th>
-                <th>Food Category</th>
+                <th>Stationary Photo</th>
+                <th>Stationary Name</th>
+                <th>Stationary Description</th>
+                <th>Stationary Price</th>
+                <th>Stationary Category</th>
                 <th>Action(s)</th>
             </tr>
 
@@ -371,7 +371,7 @@ or die("A problem has occured ... \n" . "Our team is working on it at the moment
                 echo "<td>" . $row['food_description']."</td>";
                 echo "<td>" . $symbol['currency_symbol']. "" . $row['food_price']."</td>";
                 echo "<td>" . $row['category_name']."</td>";
-                echo '<td><a class="del-btn" href="delete-food.php?id=' . $row['food_id'] . '">Remove Food</a></td>';
+                echo '<td><a class="del-btn" href="delete-food.php?id=' . $row['food_id'] . '">Remove Stationary</a></td>';
                 echo "</tr>";
             }
             mysqli_free_result($result);
@@ -388,7 +388,7 @@ or die("A problem has occured ... \n" . "Our team is working on it at the moment
       <div class="col-lg-12 mb-lg-0 mb-4 mt-4">
           <div class="card">
             <div class="card-body ">
-            <h3 class="mt-2" style="text-align:center;">Add a Food Item</h3>
+            <h3 class="mt-2" style="text-align:center;">Add a Stationary Item</h3>
             <hr/>
             <div class="row">
                 <div class="col-2"></div>
@@ -408,16 +408,16 @@ or die("A problem has occured ... \n" . "Our team is working on it at the moment
                   </div>
               <form class="p-2 needs-validation" name="foodsForm" id="foodsForm" action="foods-lounge-exec.php" method="post" enctype="multipart/form-data" onsubmit="return foodsValidate(this)" novalidate>
                   <div class="form-group">
-                      <label for="example-text-input" class="form-control-label">Food Name</label>
-                      <input type="text" name="name" id="name" class="form-control" placeholder="Enter Food Name" required>
+                      <label for="example-text-input" class="form-control-label">Stationary Name</label>
+                      <input type="text" name="name" id="name" class="form-control" placeholder="Enter Stationary Name" required>
                   </div>
                   <div class="form-group">
                       <label for="example-search-input" class="form-control-label">Description</label>
                       <textarea name="description" id="description" class="form-control" placeholder="Enter Description" required></textarea>
                   </div>
                   <div class="form-group">
-                      <label for="example-email-input" class="form-control-label">Food Price</label>
-                      <input type="text" name="price" id="price" class="form-control" placeholder="Enter Food Price" pattern="^[0-9]*$" required>
+                      <label for="example-email-input" class="form-control-label">Stationary Price</label>
+                      <input type="text" name="price" id="price" class="form-control" placeholder="Enter Stationary Price" pattern="^[0-9]*$" required>
                   </div>
 
                   <div class="form-group">
@@ -425,7 +425,7 @@ or die("A problem has occured ... \n" . "Our team is working on it at the moment
                       <input type="file" name="photo" id="photo" class="form-control" placeholder="Add Photo" required>
                   </div>
                   <div class="form-group">
-                      <input class="btn bg-gradient-primary btn-lg w-100" type="submit" name="Submit" value="Add Foods" class="form-control">
+                      <input class="btn bg-gradient-primary btn-lg w-100" type="submit" name="Submit" value="Add Stationary" class="form-control">
                   </div>
               </form>
               </div>
