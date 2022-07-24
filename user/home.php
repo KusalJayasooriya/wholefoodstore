@@ -284,7 +284,7 @@ $tuck = mysqli_fetch_assoc($billing);
 
                             <li class="nav-item">
                                 <a href="#account2" data-toggle="tab" class="nav-item nav-link has-icon nav-link-faded" role="tab" aria-controls="code" aria-selected="false">
-                                    <i class="ni ni-calendar-grid-58 text-sm me-2"></i>Reservations
+                                    <i class="ni ni-calendar-grid-58 text-sm me-2"></i>Counter Reservations
                                 </a>
                             </li>
 
@@ -403,7 +403,7 @@ $tuck = mysqli_fetch_assoc($billing);
                     </div>
                     <div class="tab-pane" id="account2">
                         <!-- reservation history -->
-                        <h6>RESERVATION HISTORY </h6>
+                        <h6>COUNTER RESERVATION HISTORY </h6>
                         <hr>
                         <div class="table-responsive">
                             <table class="table table-hover" width="100%" align="center">
@@ -411,7 +411,7 @@ $tuck = mysqli_fetch_assoc($billing);
                             <tr>
                                 <th scope="col">ID</th>
 
-                                <th scope="col">Table No</th>
+                                <th scope="col">Counter No</th>
                                 <th scope="col">Date</th>
                                 <th scope="col">Time Slot</th>
                                 <th scope="col">Status</th>
