@@ -108,7 +108,7 @@
                 </g>
               </svg>
             </div>
-            <span class="nav-link-text ms-1">Foods</span>
+            <span class="nav-link-text ms-1">Groceries</span>
           </a>
         </li>
         
