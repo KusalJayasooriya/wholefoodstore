@@ -24,7 +24,7 @@ or die("There are no records to display ... \n" . mysqli_error());
     <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="../assets/img/favicon.png">
     <title>
-        LOUNGE | WFS
+        ADMIN | WFS
     </title>
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
@@ -58,7 +58,7 @@ or die("There are no records to display ... \n" . mysqli_error());
             swal.fire({
                  type : 'success',
                  title : 'Category Deleted Successfully',
-                 text : 'Record has added to CANCELLED RESERVATIONS'
+                 text : 'Add new category'
              })
             ";
         echo $alert;
@@ -74,7 +74,7 @@ or die("There are no records to display ... \n" . mysqli_error());
             swal.fire({
                  type : 'success',
                  title : 'Category Created',
-                 text : 'GROCERIES Category Added Success'
+                 text : 'STATIONARY Category Added Success'
              })
             ";
         echo $alert;
@@ -130,7 +130,7 @@ or die("There are no records to display ... \n" . mysqli_error());
                             </g>
                         </svg>
                     </div>
-                    <span class="nav-link-text ms-1">Foods</span>
+                    <span class="nav-link-text ms-1">Groceries</span>
                 </a>
             </li>
 
@@ -317,10 +317,10 @@ or die("There are no records to display ... \n" . mysqli_error());
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
                     <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="./index.php">Home</a></li>
-                    <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="./foods-menu.php">Foods</a></li>
+                    <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="./foods-menu.php">Groceries</a></li>
                     <li class="breadcrumb-item text-sm text-dark active" aria-current="page">STATIONARIES</li>
                 </ol>
-                <h6 class="font-weight-bolder mb-0">LOUNGE - CATEGORIES</h6>
+                <h6 class="font-weight-bolder mb-0">STATIONARIES - CATEGORIES</h6>
             </nav>
         </div>
     </nav>
@@ -338,7 +338,7 @@ or die("There are no records to display ... \n" . mysqli_error());
                                 <br/>
                                 <form class="needs-validation" name="categoryForm" id="categoryForm" action="categories-exec-lounge.php" method="post" onsubmit="return categoriesValidate(this)" novalidate>
                                     <div class="input-group mb-3">
-                                        <input type="text" name="name" class="form-control" id="validationTooltip01" placeholder="ADD A NEW CATEGORY TO LOUNGE" aria-label="ADD A NEW CATEGORY" aria-describedby="button-addon2" required>
+                                        <input type="text" name="name" class="form-control" id="validationTooltip01" placeholder="ADD A NEW CATEGORY TO STATIONNARY" aria-label="ADD A NEW CATEGORY" aria-describedby="button-addon2" required>
                                         <div class="valid-tooltip">
                                             Looks good!
                                         </div>
