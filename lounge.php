@@ -82,10 +82,10 @@ if(isset($_POST['Submit'])){
             width: 200px;
             float: left;
         }
-    body{
+   /* body{
         background: url(images/ourback.jpg);
 
-    }
+    } */
         .product-grid{
             display:flex;
             flex-direction: row;

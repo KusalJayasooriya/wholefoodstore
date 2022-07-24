@@ -62,7 +62,7 @@ if($result) {
         $_SESSION['SESS_ADMIN_ID'] = $member['admin_id'];
         $_SESSION['SESS_ADMIN_NAME'] = $member['username'];
         session_write_close();
-        header("location: index.php");
+        header("location: foods-menu.php");
         exit();
     }else {
         //Login failed

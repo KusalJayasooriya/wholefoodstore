@@ -29,11 +29,11 @@ error_reporting(0);
   <!-- CSS Files -->
     <link id="pagestyle" href="../assets/css/soft-design-system.css?v=1.0.5" rel="stylesheet" />
     <link rel="stylesheet" href="../css/style.css">
-<style>
+<!-- <style>
     body{
         background: url(../images/ourback.jpg);
     }
-</style>
+</style> -->
 </head>
 
 <body class="contact-us">
@@ -161,7 +161,7 @@ error_reporting(0);
   <header>
     <div class="page-header min-vh-85" style="margin-top: 1cm">
       <div>
-        <img class="position-absolute fixed-top ms-auto w-50 h-100 z-index-0 d-none d-sm-none d-md-block border-radius-section border-top-end-radius-0 border-top-start-radius-0 border-bottom-end-radius-0" src="../assets/img/curved-images/curved8.jpg" alt="image">
+        <img class="position-absolute fixed-top ms-auto w-35 h-100 z-index-0 d-none d-sm-none d-md-block border-radius-section border-top-end-radius-0 border-top-start-radius-0 border-bottom-end-radius-0" src="../assets/img/curved-images/curved8.jpg" alt="image">
       </div>
       <div class="container">
         <div class="row">
@@ -305,7 +305,7 @@ error_reporting(0);
                 </div>    <!-- End Of /.block -->
             </div>
 
-            <div class="col-md-3">
+         <!--   <div class="col-md-3">
                 <div class="block">
                     <div class="media">
                         <h4 style="color: #fff;">OUR LOCATION</h4>

@@ -394,6 +394,18 @@ or die("A problem has occured ... \n" . "Our team is working on it at the moment
                 <div class="col-2"></div>
                 <div class="col-8">
               <div style="align-items:center;">
+                  <div class="form-group">
+                      <label for="example-date-input" class="form-control-label">Category</label>
+                      <select  name="category" id="category" class="form-control" required>
+                          <option value="select">- select one option -
+                              <?php
+                              //loop through categories table rows
+                              while ($row=mysqli_fetch_array($categories)){
+                                  echo "<option value=$row[category_id]>$row[category_name]";
+                              }
+                              ?>
+                      </select>
+                  </div>
               <form class="p-2 needs-validation" name="foodsForm" id="foodsForm" action="foods-lounge-exec.php" method="post" enctype="multipart/form-data" onsubmit="return foodsValidate(this)" novalidate>
                   <div class="form-group">
                       <label for="example-text-input" class="form-control-label">Food Name</label>
@@ -407,18 +419,7 @@ or die("A problem has occured ... \n" . "Our team is working on it at the moment
                       <label for="example-email-input" class="form-control-label">Food Price</label>
                       <input type="text" name="price" id="price" class="form-control" placeholder="Enter Food Price" pattern="^[0-9]*$" required>
                   </div>
-                      <div class="form-group">
-                          <label for="example-date-input" class="form-control-label">Category</label>
-                          <select  name="category" id="category" class="form-control" required>
-                          <option value="select">- select one option -
-                                <?php
-                                //loop through categories table rows
-                                while ($row=mysqli_fetch_array($categories)){
-                                    echo "<option value=$row[category_id]>$row[category_name]";
-                                }
-                                ?>
-                          </select>
-                      </div>
+
                   <div class="form-group">
                       <label for="example-time-input" class="form-control-label">Add Image</label>
                       <input type="file" name="photo" id="photo" class="form-control" placeholder="Add Photo" required>

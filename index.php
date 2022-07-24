@@ -284,7 +284,7 @@ padding-top: 10rem;
         text-decoration: none;
     }
 
-    body{
+  /*  body{
     background: url(images/ourback.jpg);
 
 }
@@ -416,7 +416,7 @@ padding-top: 10rem;
                 <div class="carousel-item active" style="background: url(./Akila/assets/img/slide/slide-1.jpg);">
                     <div class="carousel-container">
                         <div class="carousel-content">
-                            <h2 class="animate__animated animate__fadeInDown"><span>GROCERY</span> ITEMS</h2>
+                            <h2 class="animate__animated animate__bounce animate__infinite	infinite"><span>GROCERY</span> ITEMS</h2>
                             <p class="animate__animated animate__fadeInUp">Hello to You!
                                 Find your home groceries here...
                             </p>
@@ -432,7 +432,7 @@ padding-top: 10rem;
                 <div class="carousel-item" style="background: url(./Akila/assets/img/slide/slide-2.jpg);">
                     <div class="carousel-container">
                         <div class="carousel-content">
-                            <h2 class="animate__animated animate__fadeInDown">STATIONARIES</h2>
+                            <h2 class="animate__animated animate__bounce animate__infinite	infinite">STATIONARIES</h2>
                             <p class="animate__animated animate__fadeInUp">  “Whatever you choose for your stationery is your favorite color because it's where you pour your heart out.”.
                             </p>
                             <div>

@@ -95,7 +95,7 @@
         @media only screen and (max-width: 300px) {
             .text {font-size: 11px}
         }
-        body{
+       /* body{
             background: url(images/ourback.jpg);
 
         }
