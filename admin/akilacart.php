@@ -629,7 +629,7 @@ or die("There are no records to count ... \n" . mysqli_error());
                 tension: 0.4,
                 borderWidth: 0,
                 pointRadius: 0,
-                borderColor: "#cb0c9f",
+                borderColor: "#3ba62d",
                 borderWidth: 3,
                 backgroundColor: gradientStroke1,
                 fill: true,
